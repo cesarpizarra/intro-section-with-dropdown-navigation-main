@@ -33,22 +33,3 @@ or yarn install
 4. Start the development server:
 npm run dev or yarn dev
 
-
-5.Open your browser and navigate to the development server URL (usually http://localhost:3000) to see the application.
-
-6.Explore the codebase to understand the component structure and styles.
-
-7.Modify the components and styles to implement your solution.
-
-8.Test the responsiveness of the layout on different devices and screen sizes.
-
-9.Make any necessary adjustments to ensure the layout looks and functions correctly.
-
-10.Repeat steps 7-9 as needed until you are satisfied with the final result.
-
-Additional Resources
-Intro Section with Dropdown Navigation Challenge Details: Frontend Mentor Challenge
-Frontend Mentor Website: Frontend Mentor
-React Documentation: React
-Vite Documentation: Vite
-Tailwind CSS Documentation: Tailwind CSS
