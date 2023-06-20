@@ -1,6 +1,5 @@
 # Frontend Mentor - Intro Section with Dropdown Navigation Challenge Solution
 
-![Design preview for the Intro Section with Dropdown Navigation coding challenge](./design/desktop-preview.jpg)
 
 This repository contains my solution to the "Intro Section with Dropdown Navigation" coding challenge from Frontend Mentor. The challenge aimed to improve a dropdown menu design. I implemented the solution using React.js, Vite, and Tailwind CSS.
 
@@ -8,7 +7,6 @@ This repository contains my solution to the "Intro Section with Dropdown Navigat
 
 The challenge was to create a dropdown navigation menu that provides an improved user experience. The goal was to implement the design provided by Frontend Mentor and make the dropdown functional and responsive.
 
-The challenge design preview can be found [here](./design/desktop-preview.jpg).
 
 ## Technologies Used
 
