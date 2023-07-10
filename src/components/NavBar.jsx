@@ -24,7 +24,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto px-8">
+    <div className="max-w-[1200px] mx-auto px-4">
       <div className="flex items-center justify-between py-7">
         {/* Logo and Navlinks */}
         <ul className="flex justify-center items-center">
@@ -112,11 +112,15 @@ const NavBar = () => {
                     alt="dropdown icon"
                   />
                   {openDropdown === index && (
-                    <ul className="bottom-0 shadow-xl rounded-lg mt-2 py-2 px-4">
+                    <ul className="bottom-0 shadow-xl rounded-lg mt-2 py-2 px-4 w-full">
                       {links.dropDownItems.map((item, i) => (
-                        <li key={i} className="py-1">
+                        <li key={i} className="py-1 flex">
                           {item.icon && (
-                            <img src={item.icon} alt="dropdown item icon" />
+                            <img
+                              src={item.icon}
+                              className="mr-3 w-5"
+                              alt="dropdown item icon"
+                            />
                           )}
                           {item.label}
                         </li>

@@ -6,7 +6,7 @@ import imageHeroMobile from "../assets/image-hero-mobile.png";
 const Hero = () => {
   return (
     <div className="w-full min-h-screen">
-      <div className="max-w-[1200px] mx-auto px-8 gap-4 h-full">
+      <div className="max-w-[1200px] mx-auto px-4 gap-4 h-full">
         <div className="grid md:grid-cols-2">
           <div className="flex md:hidden justify-center">
             <img
@@ -31,7 +31,7 @@ const Hero = () => {
                 )}
                 {label.btn && (
                   <div className="flex justify-center md:justify-start">
-                    <button className="bg-black px-6 py-2 rounded-full text-white font-bold">
+                    <button className="bg-black hover:bg-transparent border border-gray-800 hover:text-black px-4 py-2 rounded-full text-white font-bold transition duration-300">
                       {label.btn}
                     </button>
                   </div>
